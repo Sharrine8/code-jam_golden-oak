@@ -10,4 +10,5 @@
 
 .page__section {
   background-color: #f7b267;
+  min-height: 500px;
 }

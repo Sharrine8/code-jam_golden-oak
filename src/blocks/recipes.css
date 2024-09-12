@@ -1,5 +1,4 @@
 .recipes {
-  background: center/ cover/ no-repeat rgba(f, f, f, 0.5)
-    url(../images/background-one.jpg);
+  background: center/ cover no-repeat url(../images/background-one.jpg);
   min-height: 500px;
 }
