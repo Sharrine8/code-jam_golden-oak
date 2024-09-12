@@ -1,9 +1,38 @@
-.cards__list {
+.cards {
   display: flex;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
-  width: 250px;
+  width: 300px;
+  height: 300px;
   background-color: #f3ebdb;
+  list-style-type: none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 3px #fff;
+  cursor: pointer;
+}
+
+.card__image {
+  max-width: 250px;
+  max-width: 100%;
+  max-height: 100px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+
+.card__title {
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+.card__text {
+  padding: 0 10px;
+  margin: 0;
 }
