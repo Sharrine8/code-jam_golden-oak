@@ -3,6 +3,8 @@
   gap: 30px;
   justify-content: center;
   align-items: center;
+  object-fit: contain;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -17,6 +19,11 @@
   align-items: center;
   box-shadow: 3px 3px 3px #fff;
   cursor: pointer;
+  text-overflow: ellipsis;
+}
+
+.card:hover {
+  background-color: rgb(255, 255, 255);
 }
 
 .card__image {
@@ -31,10 +38,12 @@
   margin: 0;
   padding: 10px 0 0;
   color: #915e34;
+  text-overflow: ellipsis;
 }
 
 .card__text {
   padding: 0 10px;
   margin: 0;
   color: #f19143;
+  text-overflow: ellipsis;
 }
