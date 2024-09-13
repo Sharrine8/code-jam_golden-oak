@@ -1,6 +1,6 @@
 .cards {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
 }
@@ -30,9 +30,11 @@
 .card__title {
   margin: 0;
   padding: 10px 0 0;
+  color: #915e34;
 }
 
 .card__text {
   padding: 0 10px;
   margin: 0;
+  color: #f19143;
 }
