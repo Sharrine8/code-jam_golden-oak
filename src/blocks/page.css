@@ -6,9 +6,19 @@
 
 .page__content {
   min-height: 100vh;
+  min-width: 100vw;
 }
 
 .page__section {
-  background-color: #f3ebdb;
   min-height: 500px;
+}
+
+.page {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'Atkinson', Helvetica, sans-serif;
 }

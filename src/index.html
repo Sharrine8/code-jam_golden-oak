@@ -7,11 +7,48 @@
     <meta name="keywords" content="food, recipe, autumn" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Golden Oak</title>
-    <link rel="icon" href="" />
+    <link rel="icon" href="./favicon.ico" />
   </head>
   <body class="page">
     <div class="page__content">
-      <header></header>
+      <header class="header page__section" id="header">
+        <video
+          autoplay
+          loop
+          muted
+          src="./Videos/9968977-uhd_3840_2160_25fps.mp4"
+          type="video/mp4"
+          class="header__video"
+        ></video>
+        <div>
+          <img class="header__logo" src="./images/golden-oak-logo-icon.png" />
+        </div>
+        <nav class="navbar">
+          <div>
+            <img src="./images/golden-oak-logo-icon.png" class="navbar__logo" />
+          </div>
+          <ul class="navbar__links">
+            <li><a href="#header" class="navbar__link">Home</a></li>
+            <li><a href="#Breakfast" class="navbar__link">Breakfast</a></li>
+            <li><a href="#Dinner" class="navbar__link">Dinner</a></li>
+            <li><a href="#Dessert" class="navbar__link">Dessert</a></li>
+            <li><a href="#About" class="navbar__link">About</a></li>
+          </ul>
+          <a href="#Contact" class="action__btn">Contact Us</a>
+          <img
+            class="toggle__btn"
+            src="./images/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+          />
+        </nav>
+        <div class="dropdown__menu">
+          <li><a href="#header" class="navbar__link">Home</a></li>
+          <li><a href="#Breakfast" class="navbar__link">Breakfast</a></li>
+          <li><a href="#Dinner" class="navbar__link">Dinner</a></li>
+          <li><a href="#Dessert" class="navbar__link">Dessert</a></li>
+          <li><a href="#About" class="navbar__link">About</a></li>
+          <li><a href="#Contact" class="action__btn">Contact Us</a></li>
+        </div>
+      </header>
       <main>
         <section class="breakfast page__section">
           <h2 class="breakfast__title">Here is the breakfast section</h2>
@@ -184,5 +221,6 @@
     </div>
 
     <div class="modal"></div>
+    <script defer src="./scripts/index.js"></script>
   </body>
 </html>
