@@ -16,7 +16,7 @@
           autoplay
           loop
           muted
-          src="./Videos/9968977-uhd_3840_2160_25fps.mp4"
+          src="./Videos/5726280-uhd_4096_2160_25fps.mp4"
           type="video/mp4"
           class="header__video"
         ></video>
@@ -25,7 +25,7 @@
           <h1 class="header__title">Golden Oak</h1>
         </div>
         <nav class="navbar">
-          <div>
+          <div class="navbar__logo_wrapper">
             <img src="./images/golden-oak-logo-icon.png" class="navbar__logo" />
           </div>
           <ul class="navbar__links">
@@ -33,9 +33,9 @@
             <li><a href="#Breakfast" class="navbar__link">Breakfast</a></li>
             <li><a href="#Dinner" class="navbar__link">Dinner</a></li>
             <li><a href="#Dessert" class="navbar__link">Dessert</a></li>
-            <li><a href="#About" class="navbar__link">About</a></li>
+            <li><a href="#About" class="navbar__link">About Us</a></li>
           </ul>
-          <a href="#Contact" class="action__btn">Contact Us</a>
+          <a href="#Contact" class="contact__btn">Join Us</a>
           <img
             class="toggle__btn"
             src="./images/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
@@ -46,12 +46,15 @@
           <li><a href="#Breakfast" class="navbar__link">Breakfast</a></li>
           <li><a href="#Dinner" class="navbar__link">Dinner</a></li>
           <li><a href="#Dessert" class="navbar__link">Dessert</a></li>
-          <li><a href="#About" class="navbar__link">About</a></li>
-          <li><a href="#Contact" class="action__btn">Contact Us</a></li>
+          <li><a href="#About" class="navbar__link">About Us</a></li>
+          <li><a href="#Contact" class="contact__btn">Join Us</a></li>
         </div>
       </header>
       <main>
-        <section class="recipes recipes__breakfast page__section">
+        <section
+          class="recipes recipes__breakfast page__section"
+          id="Breakfast"
+        >
           <h2 class="recipes__title">Autumn-Themed Breakfast Recipes</h2>
           <p class="recipes__text">
             Delicious morning choices for the whole family!
@@ -105,7 +108,7 @@
             </li>
           </ul>
         </section>
-        <section class="recipes page__section">
+        <section class="recipes page__section" id="Dinner">
           <h2 class="recipes__title">Here is the recipes section</h2>
           <p class="recipes__text">More information about this section</p>
           <ul class="cards">
@@ -157,8 +160,8 @@
             </li>
           </ul>
         </section>
-        <section class="dessert page__section"></section>
-        <section class="favorites">
+        <section class="dessert page__section" id="Dessert"></section>
+        <section class="favorites" id="About">
           <h2 class="favorites__title">Fall Favorites</h2>
           <ul class="favorites__list">
             <li class="favorite">

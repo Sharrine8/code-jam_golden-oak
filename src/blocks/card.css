@@ -24,6 +24,7 @@
 
 .card:hover {
   background-color: rgb(255, 255, 255);
+  transition: ease all 0.3s;
 }
 
 .card__image {
