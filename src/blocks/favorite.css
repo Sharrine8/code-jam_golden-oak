@@ -1,17 +1,22 @@
 .favorite {
+  width: 540px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f7b267;
-  padding: 10px;
+  background-color: tan;
+  padding: 30px;
   position: relative;
 }
+
 .favorite__picture {
-  height: 200px;
+  height: 180px;
   width: 34%;
   object-fit: cover;
   display: block;
   border-radius: 200px;
+}
+
+.favorite__name {
 }
 
 .favorite__image {
@@ -30,6 +35,6 @@
 
 .favorite__text {
   position: absolute;
-  bottom: 50px;
-  left: 200 px;
+  bottom: 200px;
+  left: 200px;
 }
