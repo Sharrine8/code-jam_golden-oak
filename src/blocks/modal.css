@@ -1,0 +1,69 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.2s, opacity 0.1s linear;
+}
+
+.modal_opened {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__container {
+  background-color: #fff;
+  top: 50px;
+  border-radius: 10px;
+  position: relative;
+  margin: auto;
+  z-index: 10;
+  width: 80%;
+  opacity: 1;
+  padding: 20px;
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: 500px auto;
+  grid-template-rows: 500px auto;
+}
+
+.modal__image {
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.modal__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__display {
+  display: flex;
+}
+
+.modal__close-btn {
+  background: no-repeat center / contain url("../images/close-btn.png");
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  border: none;
+  border-radius: 15px;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.modal__close-btn:hover {
+  transform: scale(1.2);
+}
