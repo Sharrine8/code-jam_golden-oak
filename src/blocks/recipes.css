@@ -2,22 +2,36 @@
   margin: 0 auto;
   text-align: center;
   position: relative;
-  padding-top: 50px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
 }
 
-.recipes__breakfast {
-  background: no-repeat #0a2750 center / cover
-    url(../images/background-five.jpg);
-}
-
-.recipes__title {
-  color: #fff;
-  margin: 0;
-  padding-top: 10px;
-  font-size: 30px;
+.recipes__heading {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 600px;
+  justify-content: center;
 }
 
 .recipes__text {
-  color: #fff;
-  font-size: 24px;
+  margin: 0;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: white 0.5px;
+  font-size: 60px;
+}
+
+.recipes__subtext {
+  margin: 0;
+  color: rgba(255, 156, 43, 0.986);
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.recipes__subtext span {
+  color: white;
+  text-decoration: underline rgba(255, 156, 43, 0.986) 4px;
 }
