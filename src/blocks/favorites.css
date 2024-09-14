@@ -1,14 +1,39 @@
 .favorites {
+<<<<<<< HEAD
   padding-top: 60px;
   background-color: #f19143;
+=======
+  padding: 100px 50px;
+  background-color: rgb(78, 14, 14);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 500px;
+}
+
+.favorites__title {
+  margin: 60px auto 0 300px;
+  max-width: 780px;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.favorites__subtext {
+  margin: 50px auto 0 300px;
+  max-width: 780px;
+  font-weight: 400;
+>>>>>>> 2a0ea2394014ff459c3147e7f1dfcfaed62f435e
 }
 
 .favorites__list {
+  position: absolute;
+  top: 150px;
+  right: 100px;
   list-style-type: none;
   padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 600px);
-  justify-content: center;
-  gap: 40px 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  flex-wrap: wrap;
 }

@@ -78,7 +78,7 @@
                 class="card__image"
               />
             </li>
-            <li class="card">
+            <li class="card" name="Pumpkin Spice Latte Overnight Oats">
               <img
                 src="./images/pumpkin-spice-latte-oats.avif"
                 alt="Image from thepioneerwoman.com"
@@ -107,6 +107,15 @@
               />
             </li>
           </ul>
+          <div class="recipes__heading">
+            <h1 class="recipes__text animate">Autumn-Themed Dinner Recipes</h1>
+            <p class="recipes__subtext animate">
+              <span>Fun Fact:</span> Red and purple leaves are only that color
+              because of the presence of sugars and sap that are trapped within
+              the leaves. These sugars provide plants with the energy they need
+              to survive.
+            </p>
+          </div>
         </section>
 
         <section class="recipes page__section" id="Dinner">
@@ -120,7 +129,7 @@
             </li>
             <li class="card">
               <img
-                src="./images/apple-cinnamon-oatmeal.avif"
+                src="./images/pumpkin-pancakes.avif"
                 alt="Image from thepioneerwoman.com"
                 class="card__image"
               />
@@ -178,7 +187,7 @@
           <ul class="cards">
             <li class="card">
               <img
-                src="./images/pumpkin-pancakes.avif"
+                src="./images/apple-cinnamon-oatmeal.avif"
                 alt="Image from thepioneerwoman.com"
                 class="card__image"
               />
@@ -230,13 +239,7 @@
                 alt="Sam picture"
                 class="favorite__picture"
               />
-              <p class="favorite__name">Sam</p>
-              <img
-                src="./images/fall-pie.jpg"
-                alt="Apple cider donuts"
-                class="favorite__image"
-              />
-              <p class="favorite__text">HAGDFKJDSAFFDSAFJDSKAFDSAGd</p>
+              <p class="favorite__text"></p>
             </li>
             <li class="favorite">
               <img
@@ -244,13 +247,7 @@
                 alt="Sam picture"
                 class="favorite__picture"
               />
-              <p class="favorite__name">Sam</p>
-              <img
-                src="./images/fall-pie.jpg"
-                alt="Apple cider donuts"
-                class="favorite__image"
-              />
-              <p class="favorite__text">HAGDFKJDSAFFDSAFJDSKAFDSAGd</p>
+              <p class="favorite__text"></p>
             </li>
             <li class="favorite">
               <img
@@ -258,27 +255,7 @@
                 alt="Sam picture"
                 class="favorite__picture"
               />
-              <p class="favorite__name">Sam</p>
-              <img
-                src="./images/fall-pie.jpg"
-                alt="Apple cider donuts"
-                class="favorite__image"
-              />
-              <p class="favorite__text">HAGDFKJDSAFFDSAFJDSKAFDSAGd</p>
-            </li>
-            <li class="favorite">
-              <img
-                src="./images/Sam.jpg"
-                alt="Sam picture"
-                class="favorite__picture"
-              />
-              <p class="favorite__name">Sam</p>
-              <img
-                src="./images/fall-pie.jpg"
-                alt="Apple cider donuts"
-                class="favorite__image"
-              />
-              <p class="favorite__text">HAGDFKJDSAFFDSAFJDSKAFDSAGd</p>
+              <p class="favorite__text"></p>
             </li>
           </ul>
         </section>
@@ -286,7 +263,28 @@
       <footer class="footer page__section" id="Contact"></footer>
     </div>
 
-    <div class="modal"></div>
-    <script defer src="./scripts/index.js"></script>
+    <div class="modal" id="recipe-popup">
+      <div class="modal__container">
+        <img
+          src="./images/apple-cinnamon-oatmeal.avif"
+          alt="Test"
+          class="modal__image"
+        />
+        <button class="modal__close-btn"></button>
+        <div class="modal__info">
+          <div class="modal__display"></div>
+          <h2 class="modal__title"></h2>
+          <div class="modal__text">
+            <h3 class="modal__heading">Ingredients</h3>
+            <p class="modal__ingredients"></p>
+          </div>
+          <div class="modal__text">
+            <h3 class="modal__heading">Directions</h3>
+            <p class="modal__directions"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script defer type="module" src="./scripts/index.js"></script>
   </body>
 </html>
