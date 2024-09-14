@@ -15,8 +15,8 @@ export default class PopupWithRecipe extends Popup {
   }
 
   open() {
-    // console.log(this._modalImage);
     this._modalImage.src = this._currentRecipe.image;
+    this._modalImage.alt = `Image of ${this._currentRecipe.name}`;
     this._modalTitle.innerText = this._currentRecipe.name;
     this._modalIngredients.innerText = this._currentRecipe.ingredients;
     this._modalDirections.innerText = this._currentRecipe.directions;
