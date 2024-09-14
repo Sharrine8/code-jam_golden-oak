@@ -1,7 +1,9 @@
 .footer {
-  padding: 60px 80px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__column {
@@ -9,8 +11,8 @@
 }
 
 .footer__social-heading {
-  color: white;
-  text-align: center;
+  color: rgba(255, 156, 43, 0.986);
+  justify-content: center;
   font-size: 30px;
   margin: 0;
 }
@@ -19,7 +21,7 @@
   flex-direction: row;
   margin: 15px 0 0;
   padding: 0;
-  gap: 8px;
+  gap: 15px;
 }
 
 .footer__social-icon {
