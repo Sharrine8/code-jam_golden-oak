@@ -1,0 +1,25 @@
+.footer {
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column {
+  margin-left: auto;
+}
+.footer__list {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  padding: 0;
+  gap: 5px;
+}
+
+.footer__social-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.footer__copyright {
+  text-align: center;
+}
