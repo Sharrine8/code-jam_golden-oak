@@ -1,4 +1,4 @@
-.favorites {
+.about {
   padding: 100px 50px;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   height: 500px;
 }
 
-.favorites__text {
+.about__text {
   display: flex;
   flex-direction: column;
   margin: 60px auto 0 100px;
@@ -15,7 +15,7 @@
   justify-content: center;
 }
 
-.favorites__title {
+.about__title {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: white 0.7px;
   font-size: 60px;
@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-.favorites__subtext {
+.about__subtext {
   max-width: 500px;
   font-weight: 600;
   line-height: 30px;
@@ -32,7 +32,7 @@
   text-align: center;
 }
 
-.favorites__list {
+.about__list {
   position: absolute;
   top: 150px;
   right: 100px;
