@@ -48,5 +48,53 @@ export const recipes = [
       "1. Preheat the oven to 425°. Cut each slice of bread, top to bottom, into 4 (about 1-inch wide) sticks. Stir together 3/4 cup sugar and 1 1/2 teaspoon cinnamon in a medium bowl. Set aside. \n2. Whisk together the eggs, half and half, vanilla, orange zest, salt, cardamom, 2 tablespoons sugar, and 1/2 teaspoon cinnamon in a separate bowl until well combined. One bread piece at a time, dip to coat sides thoroughly in the egg mixture, allowing excess to drip off. Transfer to the cinnamon-sugar and toss to coat. Place the bread piece on a sheet of aluminum foil. Repeat the process with the remaining pieces. \n3. Place a large baking sheet in the oven to preheat for 5 minutes. Remove the preheated baking pan from the oven and melt 1 tablespoon of the butter over the pan. Arrange the bread pieces in a single layer on top of the pan. Bake until the bottoms are golden brown, 10 to 12 minutes. \n4. Cut 2 tablespoons butter into ½-inch cubes. Remove the pan from the oven, flip the bread pieces over and sprinkle the butter cubes around the bread.  Continue baking until bread pieces are golden brown, 4 to 6 minutes.",
     image: "./images/French-Toast-Sticks.PNG",
   },
-  //linner
+  //dinner
+  {
+    name: "Roasted Delicata Squash",
+    ingredients:
+      "2 medium delicata squash (about 2 pounds) \n1/4 c. salted butter, melted \n2 tsp. chopped fresh sage \n2 tsp. seasoned salt \n1/2 tsp. ground black pepper \n1/2 c. grated parmesan cheese",
+    directions:
+      "1. Preheat the oven to 425°F. \n2. On a large cutting board, cut one squash in half. Use a spoon to scrape out and discard seeds. Slice the squash crosswise into 1-inch thick slices and place slices in a large bowl. Repeat with the remaining squash. \n3. Pour the melted butter over the squash, tossing to coat. Sprinkle with the sage, seasoned salt, and black pepper. Add the parmesan cheese, tossing to coat. \n4. On an unlined baking sheet, place the squash in a single layer. Roast until golden brown, 25 to 30 minutes, flipping the slices halfway through. Serve warm or at room temperature.",
+    image: "./images/roasted-delicata-squash.avif",
+  },
+  {
+    name: "Zucchini Pizza Bites",
+    ingredients:
+      "1 medium zucchini (about 1/2 lb.) \n1 Tbsp. olive oil \n1/2 tsp. kosher salt \n1/4 tsp. black pepper \n1/3 c. marinara sauce \n3/4 c. shredded mozzarella (3 oz.) \n2 Tbsp. grated parmesan cheese \n1/4 c. sliced mini pepperoni \n1 Tbsp. flat-leaf parsley, chopped",
+    directions:
+      "1. Place an oven rack on the upper third of the oven. Turn the oven to broil. \n2. Slice the zucchini into ¼-inch-thick rounds. Place the zucchini on a baking sheet. Brush both slides with the oil and sprinkle with the salt and pepper. \n3. Broil until the zucchini is tender and lightly golden, 6 to 8 minutes, flipping once halfway through. \n4. Top each zucchini round with some marinara sauce, mozzarella, parmesan, and a few mini pepperoni. \n5. Broil until the cheese is golden and melty, 1 to 2 minutes. Sprinkle with parsley and serve.",
+    image: "./images/zucchini-pizza-bites.avif",
+  },
+  {
+    name: "Pumpkin Ravioli",
+    ingredients:
+      "2 Tbsp. salted butter (plus 1/2 c. for ravioli) \n2 cloves garlic, finely chopped \n1 15 oz. can pumpkin puree \n1/4 tsp. kosher salt \n1/4 tsp. chili powder, plus more to taste \n1/4 c. pine nuts \n36 whole wonton wrappers \n1 egg \nThinly sliced fresh sage leaves \nBlack pepper, to taste  \nFresh parmesan cheese, optional",
+    directions:
+      "1. For the filling: Melt the butter with the garlic in a skillet over medium heat and cook for 1-2 minutes to release the garlic flavor. Add the pumpkin puree, salt and chili powder. Stir and cook over medium heat for 4-5 minutes, until the puree is less watery and slightly thickened. Remove from the heat and let cool slightly. \n2. For the ravioli: Toast the pine nuts in a small skillet over medium-low heat, tossing occasionally, until golden, 6-8 minutes. Remove from the heat and pour the pine nuts onto a small plate. \n3. In a small skillet (you can use the same one you toasted the pine nuts in) brown the butter by melting it over medium-high heat, then let it cook and bubble for an additional 4-6 minutes or until the foam is golden brown. Transfer it to a heatproof bowl. \nLay out 18 wonton wrappers and put 1 tablespoon of the pumpkin filling in the center. Beat the egg with 1 tablespoon of water. Using your finger, smear the egg mixture all over the surface of one of the wrappers surrounding the pumpkin. Place a clean wrapper on top, matching up the edges. Press the edges together and use your fingers to press out any air pockets that form. Repeat with the rest of the wrappers. (Keep in mind the wrappers dry out quickly, so you might want to assemble 9 ravioli at a time, keeping the other wrappers covered. If you like, you can trim the raviolis using a circular or square cutter to make the edges uniform. Totally optional!) \n5. Bring a pot of water to a boil. Drop 3 ravioli at a time into the water and cook for about 2 minutes. Remove with a slotted spatula and put the ravioli on a plate. Continue cooking the ravioli in batches of 3. \n6. To serve, spoon a little browned butter onto each plate and smear it around. Place 3-4 ravioli on each plate, then spoon a little more browned butter over the top. Sprinkle on the toasted pine nuts, black pepper, and shaved Parmesan, if desired. Finally, sprinkle on the sage and serve!",
+    image: "./images/pumpkin-ravioli.avif",
+  },
+  {
+    name: "Sweet Potato Casserole",
+    ingredients:
+      "4 lb. Sweet Potatoes Or Yams \n2 Tbsp. Unsalted Butter, Cut Into Small Pieces \n1/4 c. Low-fat (1%) Milk \n1 Tbsp. Maple Syrup \n1 1/2 tsp. Paprika, Divided \n3/4 c. Panko Breadcrumbs, Whole Wheat Or Regular \n1/3 c. Finely Grated Parmesan Cheese \n1 Tbsp. Minced Fresh Sage \n1/4 tsp. Salt \n1/4 tsp. Ground Pepper",
+    directions:
+      "1. Preheat oven to 350ºF. \n2. Pierce sweet potatoes or yams all over with a fork. Place in the microwave and cook until tender when pierced with a fork, turning halfway through, 15–20 minutes. \nLet the potatoes cool for several minutes. Cut potatoes in half lengthwise and scoop out flesh into a large bowl. \n4. To the potatoes, add butter, milk, maple syrup and 1 teaspoon paprika. Using a hand mixer, mix until smooth. Transfer potatoes to an 11- by 7-inch baking dish. \n5. In a medium bowl, combine panko breadcrumbs, Parmesan cheese, sage, remaining paprika, salt and pepper. Sprinkle breadcrumbs over sweet potatoes. \n6. Bake until casserole is heated through and breadcrumbs are browned, about 15 minutes. Serve.",
+    image: "./images/sweet-potato-casserole.avif",
+  },
+  {
+    name: "Pork Loin with Cranberry Sauce",
+    ingredients:
+      "Frozen, Unbaked Dinner Rolls \nMelted Butter, Regular, Salted \nFresh Rosemary, Coarsely Chopped \nCoarse Sea Salt \nPork loin",
+    directions:
+      "1. Spray a small iron skillet with cooking spray (or coat with olive oil). Place frozen rolls in the skillet, leaving plenty of room for rising. Cover and allow to rise for several hours. \n2. After rising, brush rolls with melted butter. \n3. Sprinkle on chopped rosemary. Brush with additional butter. Sprinkle with coarse sea salt. \n4. Bake according to roll package directions (usually 400 degrees for 15 to 20 minutes), until rolls are a deep golden brown on top.\n5. Serve skillet on the table.",
+    image: "./images/pork-loin-cranberry.avif",
+  },
+  {
+    name: "Pumpkin Dinner Rolls",
+    ingredients:
+      "1/2 c. Warm Whole Milk (105ºF) \n1/4 c. Honey, Divided \n2 1/4 tsp. Active Dry Yeast \n1/4 c. Salted Butter, Melted \n1 can (15 Oz. Size) Canned Pumpkin (Not Pumpkin Pie Filling Or Mix) \n1 Large Egg \n1 1/2 tsp. Salt \n5 c. All-purpose Flour, Or More As Needed",
+    directions:
+      "1. Place warm milk and 1 teaspoon of the honey in a small bowl. Sprinkle yeast on top. Allow to activate for 5 minutes. \n2. Place milk mixture and remaining ingredients in the bowl of a stand mixer fitted with the paddle attachment. Mix on low speed until a shaggy dough forms. Switch to the dough hook. Knead on medium-low speed for 15 minutes. You can add more flour if dough is extremely wet, but dough should be quite sticky and won't clean the sides of the bowl completely. \n3. Scrape dough into a large, generously greased bowl. Cover and allow to rise until doubled, about 1 1/2 to 2 hours. \n4. Scoop dough out onto a piece of parchment paper or a greased work surface. Divide dough into 15 to 24 pieces, depending on how large of rolls you prefer. Using buttered hands, shape the pieces into balls by first pinching the edges into the center, then rolling the ball on your work surface to create surface tension. Place in a greased 13x9-inch pan or 10- to 12-inch cast iron skillet. \n5. Cover with a tea towel and allow to rise until the rolls fill the pan, about 1 1/2 to 2 hours. \n6. Half an hour before the rolls are done proofing, preheat oven to 375° F. Bake risen rolls for 25–30 minutes, or until golden and an instant read thermometer registers 200° F when inserted into the center of one of the rolls. \n7. Allow to cool in the pan for 10 minutes. Invert onto a cooling rack to cool further. Serve warm or at room temperature (with butter, of course!).",
+    image: "./images/pumpkin-dinner-rolls.avif",
+  },
 ];
