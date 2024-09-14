@@ -11,9 +11,12 @@ export default class PopupWithRecipe extends Popup {
     );
     this._modalDirections =
       this._popupElement.querySelector(".modal__directions");
+    this._modalImage = this._popupElement.querySelector(".modal__image");
   }
 
   open() {
+    // console.log(this._modalImage);
+    this._modalImage.src = this._currentRecipe.image;
     this._modalTitle.innerText = this._currentRecipe.name;
     this._modalIngredients.innerText = this._currentRecipe.ingredients;
     this._modalDirections.innerText = this._currentRecipe.directions;
