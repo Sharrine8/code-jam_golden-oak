@@ -55,7 +55,7 @@
 .modal__close-btn {
   background: no-repeat center / contain url("../images/close-btn.png");
   background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
+  position: fixed;
   width: 30px;
   height: 20px;
   border: none;
@@ -74,6 +74,7 @@
 .modal__heading {
   margin: 0;
   font-size: 24px;
+  color: rgba(255, 156, 43, 0.986);
 }
 
 .modal__title {
@@ -82,6 +83,7 @@
   margin: 0;
   font-size: 36px;
   grid-area: title;
+  color: rgba(255, 156, 43, 0.986);
 }
 
 .modal__text {
