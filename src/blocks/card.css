@@ -1,18 +1,27 @@
 .cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   max-height: 400px;
-  margin: 0 auto;
+  margin: 0 20px;
   padding: 0;
   gap: 20px;
-  flex-wrap: wrap;
   max-width: 900px;
   justify-content: center;
   align-items: center;
 }
 
 .card {
-  max-width: 100%;
-  max-height: 100%;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 20px;
+  width: fit-content;
+  max-height: 400px;
+}
+
+.card:hover {
+  transition: all ease 0.2s;
+  transform: translateY(20px);
+  box-shadow: black 10px 10px 10px;
 }
 
 .card__image {
@@ -20,10 +29,103 @@
   min-height: 400px;
   object-fit: cover;
   border-radius: 20px;
+}
+
+.card__info {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: end;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0;
+  color: white;
+}
+
+.card__info:hover {
+  opacity: 100%;
+  transition: opacity 0.3s;
+  text-align: center;
+}
+
+.card__title {
+  margin: 0;
+}
+
+.card__text {
+  margin: 0;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.card__button {
+  margin: 0 auto 10px;
+  border: none;
+  border-radius: 10px;
+  min-height: 40px;
+  padding: 0;
+  min-width: 120px;
+  background-image: linear-gradient(to bottom, #434343 0%, black 100%);
+  background-blend-mode: multiply;
+  color: rgba(255, 156, 43, 0.986);
+  line-height: 10px;
+  font-weight: bold;
   cursor: pointer;
 }
 
-.card__image:hover {
-  box-shadow: black 5px 10px 10px;
-  transition: all ease 0.2s;
+@media (max-width: 1500px) {
+  .cards {
+    max-height: 350px;
+    max-width: 850px;
+  }
+  .card__image {
+    max-width: 220px;
+    min-height: 350px;
+  }
+
+  .card {
+    max-height: 350px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cards {
+    max-height: 300px;
+    max-width: 800px;
+    margin-top: 50px;
+  }
+  .card__image {
+    max-width: 170px;
+    min-height: 300px;
+  }
+  .card {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 900px) {
+  .cards {
+    margin: 30px auto 0;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .card__image {
+    max-width: 200px;
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
