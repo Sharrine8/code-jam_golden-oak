@@ -2,15 +2,19 @@
   margin: 0 auto;
   text-align: center;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
   display: flex;
   justify-content: center;
+}
+
+.recipes:first-of-type {
+  padding-top: 100px;
 }
 
 .recipes__heading {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 0 10px;
   align-items: center;
   max-width: 600px;
   justify-content: center;
@@ -34,4 +38,25 @@
 .recipes__subtext span {
   color: white;
   text-decoration: underline rgba(255, 156, 43, 0.986) 4px;
+}
+
+@media (max-width: 900px) {
+  .recipes {
+    display: block;
+  }
+  .recipes__heading {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .recipes {
+    min-height: 1400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .recipes {
+    min-height: 2500px;
+  }
 }
