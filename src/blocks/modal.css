@@ -40,6 +40,10 @@
   gap: 25px;
 }
 
+.modal__container::-webkit-scrollbar {
+  display: none;
+}
+
 .modal__image {
   max-width: 500px;
   max-height: 500px;
