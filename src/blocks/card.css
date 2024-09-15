@@ -68,7 +68,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 1500px) {
+/* @media (max-width: 1500px) {
   .cards {
     max-height: 350px;
     max-width: 850px;
@@ -81,9 +81,9 @@
   .card {
     max-height: 350px;
   }
-}
+} */
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .cards {
     max-height: 300px;
     max-width: 800px;
