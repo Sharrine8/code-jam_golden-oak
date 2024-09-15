@@ -1,5 +1,5 @@
 .page {
-  margin: 0;
+  margin: 0 auto;
   min-height: 100%;
   background-image: linear-gradient(to left, #434343 0%, black 100%);
   background-blend-mode: multiply;
