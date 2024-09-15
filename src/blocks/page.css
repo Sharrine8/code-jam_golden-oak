@@ -21,12 +21,3 @@
 .page__section .animate {
   transition: 4s;
 }
-
-.animate {
-  transform: translateX(-200%);
-}
-
-.show-animate .animate {
-  transform: translateX(0);
-  transition: 2s;
-}

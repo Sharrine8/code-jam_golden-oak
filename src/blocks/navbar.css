@@ -47,14 +47,14 @@
   transition: ease all 0.3s;
 }
 
-.toggle__btn {
+.navbar__toggle-btn {
   width: 30px;
   height: 30px;
   cursor: pointer;
   display: none;
 }
 
-.contact__btn {
+.navbar__contact-btn {
   background-color: rgba(230, 129, 13, 0.801);
   text-decoration: none;
   color: white;
@@ -64,17 +64,17 @@
   cursor: pointer;
 }
 
-.contact__btn:hover {
+.navbar__contact-btn:hover {
   background-color: rgba(165, 88, 0, 0.801);
   transition: ease all 0.3s;
   scale: 1.1;
 }
 
-.contact__btn:hover:active {
+.navbar__contact-btn:hover:active {
   scale: 0.95;
 }
 
-.dropdown__menu {
+.navbar__dropdown-menu {
   position: absolute;
   right: 2rem;
   top: 60px;
@@ -88,46 +88,46 @@
   transition: height 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.dropdown__menu.open {
+.navbar__dropdown-menu.open {
   height: 365px;
 }
 
-.dropdown__menu li {
+.navbar__dropdown-menu li {
   padding: 0.7rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.dropdown__menu .navbar__link:hover {
+.navbar__dropdown-menu .navbar__link:hover {
   background-color: rgba(230, 129, 13, 0.801);
 }
 
-.dropdown__menu .contact__btn {
+.navbar__dropdown-menu .navbar__contact-btn {
   width: 90%;
   display: flex;
   justify-content: center;
 }
 
-.dropdown__menu .contact__btn:hover {
+.navbar__dropdown-menu .navbar__contact-btn:hover {
   scale: 1.05;
 }
 
-.dropdown__menu .contact__btn:active {
+.navbar__dropdown-menu .navbar__contact-btn:active {
   scale: 0.95;
 }
 
 @media (max-width: 750px) {
   .navbar__links,
-  .contact__btn {
+  .navbar__contact-btn {
     display: none;
   }
 
-  .toggle__btn {
+  .navbar__toggle-btn {
     display: block;
   }
 
-  .dropdown__menu {
+  .navbar__dropdown-menu {
     display: block;
     width: unset;
     left: 1rem;
