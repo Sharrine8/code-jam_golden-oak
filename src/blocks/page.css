@@ -18,7 +18,7 @@
   min-height: 900px;
 }
 
-section .animate {
+.page__section .animate {
   transition: 4s;
 }
 
