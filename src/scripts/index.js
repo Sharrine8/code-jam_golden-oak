@@ -1,7 +1,7 @@
 import PopupWithRecipe from "../components/PopupWithRecipe.js";
 import { recipes } from "../utils/constants.js";
 
-let scrollAnimate = document.querySelectorAll("section");
+let scrollAnimate = document.querySelectorAll(".page__section");
 window.onscroll = () => {
   scrollAnimate.forEach((sec) => {
     let top = window.scrollY;

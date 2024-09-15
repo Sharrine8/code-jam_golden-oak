@@ -19,7 +19,7 @@
 }
 
 section .animate {
-  transition: 1s;
+  transition: 4s;
 }
 
 .animate {
@@ -28,4 +28,5 @@ section .animate {
 
 .show-animate .animate {
   transform: translateX(0);
+  transition: 2s;
 }
