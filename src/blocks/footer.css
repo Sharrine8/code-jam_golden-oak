@@ -1,13 +1,12 @@
 .footer {
   margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer__column {
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer__social-heading {
@@ -34,3 +33,14 @@
   text-align: center;
   color: white;
 }
+
+.footer__list-item {
+  list-style: none;
+}
+
+.footer__disclaimer {
+  color: rgb(85, 85, 85);
+  font-size: 11px;
+  text-align: center;
+}
+
