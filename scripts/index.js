@@ -21,7 +21,6 @@ recipePopup.setEventListeners();
 const toggleBtn = document.querySelector(".navbar__toggle-btn");
 const dropDownMenu = document.querySelector(".navbar__dropdown-menu");
 const cardsList = [...document.querySelectorAll(".card")];
-console.log(cardsList);
 cardsList.forEach((card) => {
   card.addEventListener("click", () => {});
 });
