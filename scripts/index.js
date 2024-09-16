@@ -20,10 +20,6 @@ const recipePopup = new PopupWithRecipe("#recipe-popup", recipes);
 recipePopup.setEventListeners();
 const toggleBtn = document.querySelector(".navbar__toggle-btn");
 const dropDownMenu = document.querySelector(".navbar__dropdown-menu");
-const cardsList = [...document.querySelectorAll(".card")];
-cardsList.forEach((card) => {
-  card.addEventListener("click", () => {});
-});
 
 toggleBtn.onclick = function () {
   dropDownMenu.classList.toggle("open");
